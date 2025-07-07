@@ -13,8 +13,5 @@ def is_prime(n):
     return True
 
 
-for num in range(1, number + 1):
-    if is_prime(num):
-        primeNumbers.append(num)
-
+primeNumbers = [n for n in range(1, number + 1) if is_prime(n)]
 print(primeNumbers)
