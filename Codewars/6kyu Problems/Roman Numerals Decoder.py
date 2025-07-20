@@ -17,7 +17,3 @@ def solution(string):
             total += roman_dict[string[i]]
 
     return total
-
-
-
-
